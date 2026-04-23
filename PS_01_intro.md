@@ -7,7 +7,7 @@ Write a program that:
 - Creates variables `client_name`, `client_age`, `client_city`  
 - Assigns values  
 - Prints:  
-  `Name: <name>, Age: <age>, City: <city>`  
+  `Name:.... , Age: ..... , City: .....`  
 
 ---
 
@@ -15,7 +15,7 @@ Write a program that:
 Write a program that:
 - Takes input for `student_name` and `student_age`  
 - Prints:  
-  `Hello <student_name>, you are <student_age> years old`  
+  `Hello ........., you are ... years old`  
 
 ---
 
