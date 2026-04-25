@@ -1,62 +1,100 @@
-# Python Practical Questions – Operators
+# Python Practical Questions - Operators
 
 ---
 
-## 1. Arithmetic Operators
+## 1. Arithmetic Operations Practice
 Write a program that:
-- Takes two numbers as input  
-- Converts them into integers  
+- Uses `x = 12` and `y = 4`  
 - Prints:
   - Addition  
   - Subtraction  
   - Multiplication  
   - Division  
   - Modulus  
+  - Floor division  
   - Exponent  
 
 ---
 
-## 2. Assignment Operators
+## 2. Division vs Floor Division
 Write a program that:
-- Creates a variable `value = 10`  
-- Applies:
-  - `+=`, `-=`, `*=`, `/=`  
-- Prints value after each operation  
+- Uses numbers `15` and `4`  
+- Prints:
+  - Normal division result  
+  - Floor division result  
+- Compare both outputs  
 
 ---
 
-## 3. Comparison Operators
+## 3. Assignment Operator (+=)
 Write a program that:
-- Takes two numbers as input  
-- Prints results of:
-  - `==`, `!=`, `>`, `<`, `>=`, `<=`  
+- Creates `num = 20`  
+- Adds 10 using `+=`  
+- Prints updated value  
 
 ---
 
-## 4. Logical Operators
+## 4. Assignment Operator (*=)
 Write a program that:
-- Takes two boolean inputs (`True/False`)  
-- Prints results of:
-  - `and`, `or`, `not`  
+- Creates `num = 6`  
+- Multiplies it by 3 using `*=`  
+- Prints result  
 
 ---
 
-## 5. Identity Operators
+## 5. Comparison Operators Check
 Write a program that:
-- Creates two variables with same value  
+- Uses `a = 25`, `b = 15`  
+- Prints:
+  - Equal to  
+  - Not equal to  
+  - Greater than  
+  - Less than  
+
+---
+
+## 6. Greater or Equal / Less or Equal
+Write a program that:
+- Uses `p = 10`, `q = 10`  
 - Checks:
-  - `is`  
-  - `is not`  
+  - `p >= q`  
+  - `p <= q`  
 - Prints results  
 
 ---
 
-## 6. Membership Operators
+## 7. Logical AND
 Write a program that:
-- Creates a list of numbers  
-- Takes a number as input  
-- Checks:
-  - If number is in list  
-  - If number is not in list  
+- Uses `x = 30`, `y = 20`, `z = 40`  
+- Checks if `x` is less than both `y` and `z`  
+- Prints result  
+
+---
+
+## 8. Logical OR
+Write a program that:
+- Uses same variables (`x`, `y`, `z`)  
+- Checks if `x` is less than either `y` or `z`  
+- Prints result  
+
+---
+
+## 9. Logical NOT
+Write a program that:
+- Uses `x = 30`, `y = 20`  
+- Checks condition `x < y`  
+- Uses `not` to reverse result  
+- Prints output  
+
+---
+
+## 10. Combined Operators Practice
+Write a program that:
+- Uses `x = 10`, `y = 5`  
+- Performs:
+  - Arithmetic (addition, multiplication)  
+  - Comparison (`x > y`)  
+  - Logical (`x > y and y < 10`)  
+- Prints all outputs clearly  
 
 ---
